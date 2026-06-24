@@ -123,9 +123,9 @@ Shader "S_ScanMask"
 }
 /*ASEBEGIN
 Version=18900
-198;73;1403;631;1170.5;285.5;1;True;False
+375;73;1144;535;1041;237.5;1;True;False
 Node;AmplifyShaderEditor.ColorNode;3;-516.5,-14.5;Inherit;False;Property;_Color;Color;0;0;Create;True;0;0;0;False;0;False;0.5849056,0.09656459,0.09656459,1;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;0;-224,-10;Float;False;True;-1;2;ASEMaterialInspector;100;1;S_ScanMask;0770190933193b94aaa3065e307002fa;True;Unlit;0;0;Unlit;2;True;True;2;5;False;-1;10;False;-1;0;5;False;-1;10;False;-1;True;0;False;-1;0;False;-1;False;False;False;False;False;False;False;False;False;True;0;False;-1;True;True;1;False;-1;True;True;True;True;True;True;0;False;-1;False;False;False;False;False;False;True;True;True;1;False;-1;255;False;-1;255;False;-1;7;False;-1;3;False;-1;1;False;-1;1;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;True;True;2;False;-1;True;7;False;-1;True;True;0;False;-1;0;False;-1;True;1;RenderType=Transparent=RenderType;True;2;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;1;LightMode=ForwardBase;False;0;;0;0;Standard;1;Vertex Position,InvertActionOnDeselection;1;0;1;True;False;;False;0
 WireConnection;0;0;3;0
 ASEEND*/
-//CHKSM=1EFCAC6277D38B4AC876DCE69D949E93F691EFCB
+//CHKSM=52A741E4B62821DEC13A283A163D4169A6C8BB9A

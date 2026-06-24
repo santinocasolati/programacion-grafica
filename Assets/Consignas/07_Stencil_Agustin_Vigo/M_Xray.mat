@@ -77,5 +77,5 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _XrayColor: {r: 0.95283014, g: 0.21124053, b: 0.21124053, a: 0}
+    - _XrayColor: {r: 0.95283014, g: 0.2112405, b: 0.2112405, a: 0}
   m_BuildTextureStacks: []

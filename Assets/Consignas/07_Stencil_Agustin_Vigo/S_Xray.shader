@@ -134,7 +134,7 @@ Shader "S_Xray"
 }
 /*ASEBEGIN
 Version=18900
-198;73;1403;631;1082.5;247.5;1;True;False
+375;73;1144;535;1005;183.5;1;True;False
 Node;AmplifyShaderEditor.ColorNode;1;-679.5,-143.5;Inherit;False;Property;_XrayColor;XrayColor;0;0;Create;True;0;0;0;False;0;False;0.9528302,0.2112406,0.2112406,0;0.9528301,0.2112405,0.2112405,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.FresnelNode;2;-623.5,45.5;Inherit;False;Standard;WorldNormal;ViewDir;False;False;5;0;FLOAT3;0,0,1;False;4;FLOAT3;0,0,0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;3;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;3;-261.5,-16.5;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;1;COLOR;0
@@ -143,4 +143,4 @@ WireConnection;3;0;1;0
 WireConnection;3;1;2;0
 WireConnection;0;0;3;0
 ASEEND*/
-//CHKSM=18D7D66FE34AC018DCEA2C75D08037CFC280D96C
+//CHKSM=DD2D27C3CF52F6B342628CF090AC60E216FBF095
