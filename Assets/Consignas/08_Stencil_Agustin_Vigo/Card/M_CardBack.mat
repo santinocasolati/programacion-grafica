@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_CardWindow
-  m_Shader: {fileID: 4800000, guid: e426bc12d997fb9469c775fd821b16c8, type: 3}
+  m_Name: M_CardBack
+  m_Shader: {fileID: 4800000, guid: dda3f9c7b6831e34a94fbb34423b7bd3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -19,7 +19,15 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _Tex:
+        m_Texture: {fileID: 2800000, guid: 425f61aa619f2004795ef326d0691e57, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats: []
     m_Colors: []
