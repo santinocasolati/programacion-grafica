@@ -207,6 +207,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 16.459, y: 0, z: 0}
+--- !u!21 &1066916177
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dithering_Material (Instance) (Instance) (Instance)
+  m_Shader: {fileID: 4800000, guid: 6e842bd9609617e4c828e11b9519a725, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: b5ea2d5c131c307449aa745645e750b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CutRadius: 0
+    - _Cutoff: 0.5
+    - _Hardness: 0.5
+    - _Radius: 1.7
+    - __dirty: 0
+    m_Colors:
+    - _NoiseSpeed: {r: -0.03, g: 0.03, b: 0, a: 0}
+    - _PlayerPos: {r: 2.12, g: 0.83, b: 1.869, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1121287721
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,45 +344,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1307655837
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Dithering_Material (Instance) (Instance)
-  m_Shader: {fileID: 4800000, guid: 6e842bd9609617e4c828e11b9519a725, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: b5ea2d5c131c307449aa745645e750b5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _texcoord:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _CutRadius: 0
-    - _Cutoff: 0.5
-    - _Hardness: 0.5
-    - _Radius: 2.6
-    - __dirty: 0
-    m_Colors:
-    - _NoiseSpeed: {r: -0.03, g: 0.03, b: 0, a: 0}
-    - _PlayerPos: {r: 2.12, g: 0.83, b: 1.869, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1669067404
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,7 +397,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1307655837}
+  - {fileID: 1066916177}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -435,7 +435,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1669067404}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.02, y: 1.16, z: 0.33}
+  m_LocalPosition: {x: 1.02, y: 2.08, z: 0.33}
   m_LocalScale: {x: 7.995527, y: 4.149013, z: 0.6690358}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -455,7 +455,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1121287725}
-  cutRadius: 0
 --- !u!1 &1688769214
 GameObject:
   m_ObjectHideFlags: 0
