@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 5ef962c5948118a479869d97531f3c5f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _RotateTexture: {fileID: 2800000, guid: d9b534bcb525ca94aa23a10e7abf83f0, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
