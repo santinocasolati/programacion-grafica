@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 7288833}
   - component: {fileID: 7288837}
   - component: {fileID: 7288836}
+  - component: {fileID: 7288838}
   m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
@@ -248,6 +249,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8636933}
   m_EdgeRadius: 0
+--- !u!114 &7288838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7288831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b397239fb13804747b2a7619c1cfb171, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabOla: {fileID: 4023904388359667410, guid: c56cf2abe1fbbc2459c08b0adef76712, type: 3}
+  tagPelota: Pelota
 --- !u!1 &221480653
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,7 +279,7 @@ GameObject:
   - component: {fileID: 221480654}
   m_Layer: 0
   m_Name: Pelota (1)
-  m_TagString: Untagged
+  m_TagString: Pelota
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -398,7 +413,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.82, y: 2.2021}
+  m_AnchoredPosition: {x: -7.82, y: 4.68}
   m_SizeDelta: {x: 1.8022, y: 1.8266}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &671860276
@@ -485,7 +500,7 @@ GameObject:
   - component: {fileID: 689412696}
   m_Layer: 0
   m_Name: Pelota
-  m_TagString: Untagged
+  m_TagString: Pelota
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
