@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duracion: 0.5
-  expansionX: 1
+  expansionX: 0.5
   expansionY: 0.5
   curvaAlpha:
     serializedVersion: 2

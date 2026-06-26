@@ -14,7 +14,7 @@ public class GeneradorOlas : MonoBehaviour
             // Z más negativo que el agua para que quede ADELANTE
             Vector3 pos = new Vector3(
                 other.transform.position.x,
-                transform.position.y,
+                transform.position.y+1,
                 transform.position.z - 0.1f   // un poquito adelante del agua
             );
             Instantiate(prefabOla, pos, Quaternion.identity);
