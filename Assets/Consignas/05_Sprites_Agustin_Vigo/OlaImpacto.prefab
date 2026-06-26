@@ -97,8 +97,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a76a7b016064cd4e946a7ecd84e6f15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duracion: 0.5
-  expansionX: 0.5
+  duracion: 0.4
+  expansionX: 0.1
   expansionY: 0.5
   curvaAlpha:
     serializedVersion: 2

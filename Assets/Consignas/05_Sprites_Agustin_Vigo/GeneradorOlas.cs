@@ -15,7 +15,7 @@ public class GeneradorOlas : MonoBehaviour
             Vector3 pos = new Vector3(
                 other.transform.position.x,
                 transform.position.y+1,
-                transform.position.z - 0.1f   // un poquito adelante del agua
+                transform.position.z - -0.3f  
             );
             Instantiate(prefabOla, pos, Quaternion.identity);
         }
