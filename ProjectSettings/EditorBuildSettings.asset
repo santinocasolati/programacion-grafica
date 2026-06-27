@@ -4,5 +4,38 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Consignas/01_Distance_Render_DrawMesh_Santino_Casolati/01_Distance_Render_DrawMesh.unity
+    guid: f4d40c3a554dac74d8fbaccbdcb0131d
+  - enabled: 1
+    path: Assets/Consignas/02_Distance_Santino_Casolati/02_Distance.unity
+    guid: cb02a0b5fd3bef34ca84825f18d25444
+  - enabled: 1
+    path: Assets/Consignas/03_Zbuffer_Santino_Casolati/03_Zbuffer.unity
+    guid: 4cc733e225d0f1a4cb6591e607404982
+  - enabled: 1
+    path: Assets/Consignas/04_PostProcess_Ramiro_Garcia_Diaz/PostProcess.unity
+    guid: 320f855c348a2c846aa7c11b5dca0d29
+  - enabled: 1
+    path: Assets/Consignas/05_Sprites_Agustin_Vigo/5_Sprites.unity
+    guid: 66b39d5fc98c8d94fa0fa7e452b6b9af
+  - enabled: 1
+    path: Assets/Consignas/06_UI_Ramiro_Garcia_Diaz/UI.unity
+    guid: cda6356e0dcd68640bcb40f053ac41a6
+  - enabled: 1
+    path: Assets/Consignas/07_Stencil_Agustin_Vigo/7_Stencil.unity
+    guid: bf0081fa4a3dd1b4da1f29f3b0e4da3d
+  - enabled: 1
+    path: Assets/Consignas/08_Stencil_Agustin_Vigo/8_CartaTCG.unity
+    guid: a2128044de6f3bf4c8fe2268f1f44919
+  - enabled: 1
+    path: Assets/Consignas/09_Projector_Agustin_Vigo/9_Projector.unity
+    guid: 86cca937db2ae3d42af8cbb3fd47e35e
+  - enabled: 1
+    path: Assets/Consignas/10_Projector_Ramiro_Garcia_Diaz/Projector.unity
+    guid: ad1aa6b312fcf0b4cb4e9dd1d3e03c77
+  - enabled: 1
+    path: Assets/Consignas/11_Projector_Santino_Casolati/11_Projector.unity
+    guid: be2d524f6c80c81498b39e1e445849f4
   m_configObjects: {}
